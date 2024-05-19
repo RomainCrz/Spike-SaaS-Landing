@@ -20,6 +20,11 @@ const config: Config = {
       white: "#FFFFFF",
       black: "#000000",
     },
+    boxShadow: {
+      'custom-1': '0 -2px 10px 0 rgba(233, 223, 255, 0.3)',
+      'custom-2': '0 -2px 40px 0 rgba(187, 155, 255, 0.15)',
+      'inner-custom': 'inset 0 0.5px 0 0 rgba(255, 255, 255, 0.5)',
+    },
   },
   plugins: [],
 };
