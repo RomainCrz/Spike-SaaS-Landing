@@ -5,7 +5,7 @@ export const Hero = () => {
     <div id="small container" className="flex flex-col items-center justify-center gap-5 mt-24">
       <div id="title section" className="flex flex-col items-center justify-center gap-5">
         <div id="pill" className="flex justify-center items-center ">
-          <p className="border-solid border border-[rgba(255,255,255,0.3)] px-5 py-2 rounded-full">We just raised $20M in Series B. Learn more</p>
+          <p className="border-solid border border-[rgba(255,255,255,0.3)] px-5 py-2 rounded-full text-primary">We just raised $20M in Series B. Learn more</p>
         </div>
         <div id="content" className="flex flex-col items-center justify-center gap-5">
           <h1 className="text-6xl font-medium max-w-2xl text-center text-white">

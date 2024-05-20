@@ -6,7 +6,7 @@ export const Section = () => {
     <div className="flex flex-col items-center justify-center gap-20">
       <div id="section title" className="py-6 flex justify-center items-center flex-col gap-6">
         <div id="title wrapper" className="text-center max-w-96">
-          <p className="text-5xl font-medium leading-[1.2]">Features that work for your future.</p>
+          <p className="text-5xl font-medium leading-[1.2] text-primary">Features that work for your future.</p>
         </div>
         <p className="text-center text-lg text-primary max-w-[500px]">Check out our amazing features and experience the power of Vaultflow for yourself.</p>
       </div>
@@ -16,7 +16,7 @@ export const Section = () => {
             <div id="card 1" className="flex flex-col p-14 max-w-[600px] gap-4 shadow-custom rounded-[20px]">
               <Image src={"/analytics-icon.png"} alt="Analytics Icon" width={50} height={50} />
               <div id="card 1 content" className="flex flex-col gap-[10px]">
-                <p className="text-3xl">Analytics Dashboard</p>
+                <p className="text-3xl text-primary">Analytics Dashboard</p>
                 <p className="text-sm text-primary leading-[1.5] text-justify">
                   Our Analytics Dashboard provides a clear and intuitive interface for you to easily analyze your data. From customizable graphs to real-time data updates, our dashboard offers
                   everything you need to gain valuable insights.
@@ -30,7 +30,7 @@ export const Section = () => {
           <div id="card 2" className="flex flex-col p-14 max-w-[600px] gap-4 shadow-custom rounded-[20px]">
             <Image src={"/token-icon.png"} alt="Analytics Icon" width={50} height={50} />
             <div id="card 1 content" className="flex flex-col gap-[10px]">
-              <p className="text-3xl">Digital Credit Tokens</p>
+              <p className="text-3xl text-primary">Digital Credit Tokens</p>
               <p className="text-sm text-primary leading-[1.5] text-justify">
                 Reward your customers and incentivize engagement with our innovative digital credit tokens. Our tokens can be customized to match your branding, and are a flexible and scalable way to
                 drive customer loyalty and encourage repeat business.
@@ -45,7 +45,7 @@ export const Section = () => {
           <div id="card 2" className="flex flex-col max-w-[460px] gap-4">
             <Image src={"/code-icon.png"} alt="Analytics Icon" width={50} height={50} />
             <div id="card 1 content" className="flex flex-col gap-[10px]">
-              <p className="text-3xl">Code collaboration</p>
+              <p className="text-3xl text-primary">Code collaboration</p>
               <p className="text-sm text-primary leading-[1.5] text-justify">
                 Our advanced code synchronization technology ensures that your data is always up-to-date and accurate, no matter where it's coming from. Whether you're integrating data from multiple
                 sources or working with a team of developers, our synchronization technology makes it easy to collaborate and ensure that your data is consistent and reliable.
